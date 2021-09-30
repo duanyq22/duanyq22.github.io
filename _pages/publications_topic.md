@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications_topic/
 title: Publications
-description: By topic.
 topics_batchRL: [policy evaluation, optimal policy learning]
 topics_aggreg: [state aggregation, state embedding]
 nav: false
