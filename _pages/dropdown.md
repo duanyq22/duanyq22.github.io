@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: publications
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: publications (by year)
+      permalink: /publications_year/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: publications (by topic)
+      permalink: /publications_topic/
 ---

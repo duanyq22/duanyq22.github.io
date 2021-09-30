@@ -1,11 +1,18 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+title: Teaching
+description: 
+nav: false
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I worked as a graduate teaching assistant for the following courses:
 
-Organize your courses by years, topics, or universities, however you like!
+| Semster      |||| Course |
+| ----------- |||| ----------- |
+| Spring 2021      |||| [ORF 245 / EGR 245](https://registrar.princeton.edu/course-offerings/course-details?term=1214&courseid=007996){:target="\_blank"} - Fundamentals of Statistics       |
+| Fall 2020   |||| [ORF 309 / EGR 309 / MAT 380](https://registrar.princeton.edu/course-offerings/course-details?term=1212&courseid=007999){:target="\_blank"} - Probability and Stochastic Systems        |
+| Spring 2020      |||| [ORF 473](https://registrar.princeton.edu/course-offerings/course-details?term=1204&courseid=012024){:target="\_blank"} - Financial Technology and Data-Driven Innovation       |
+| Fall 2019      |||| [ORF 245 / EGR 245](https://registrar.princeton.edu/course-offerings/course-details?term=1202&courseid=007996){:target="\_blank"} - Fundamentals of Statistics       |
+| Spring 2019      |||| [ORF 245 / EGR 245](https://registrar.princeton.edu/course-offerings/course-details?term=1194&courseid=007996){:target="\_blank"} - Fundamentals of Statistics       |
+| Fall 2018      |||| [ORF 363 / COS 323](https://registrar.princeton.edu/course-offerings/course-details?term=1192&courseid=012833){:target="\_blank"} - Computing and Optimization for the Physical and Social Sciences      |
