@@ -125,6 +125,7 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-sitemap
   - jemoji
+  - jekyll-seo-tag
 
 # Extras
 github: [metadata]
