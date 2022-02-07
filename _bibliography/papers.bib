@@ -12,6 +12,16 @@
 	topic={policy evaluation}
 }
 
+@article{duan2022adaptive,
+	title={Adaptive and robust multi-task learning},
+	author={Duan, Yaqi and Wang, Kaizheng},
+	abstract = {We study the multi-task learning problem that aims to simultaneously analyze multiple datasets collected from different sources and learn one model for each of them. We propose a family of adaptive methods to automatically utilize possible similarities among those tasks while carefully handling their differences. We derive optimal statistical guarantees for the methods and prove their robustness against outlier tasks. Numerical experiments on synthetic and real datasets demonstrate the efficacies of our new methods.},
+	journal={arXiv Preprint},
+	year = {2022},
+	selected={true},
+	topic={multi-task learning}
+}
+
 @article{duan2020minimax,
 	title={Minimax-optimal off-policy evaluation with linear function approximation},
 	author={Duan, Yaqi and Wang, Mengdi},
@@ -54,6 +64,17 @@
 	arXiv={1810.06032},
 	selected={true},
 	topic={state aggregation}
+}
+
+@article{yin2022bootstrapping,
+	title={Near-optimal offline reinforcement learning with linear representation: leveraging variance information with pessimism},
+	author={Yin, Ming and Duan, Yaqi and Wang, Mengdi and Wang, Yu-Xiang},
+	journal={International Conference on Learning Representations (ICLR)},
+	year={2022},
+	abstract={Offline reinforcement learning, which seeks to utilize offline/historical data to optimize sequential decision-making strategies, has gained surging prominence in recent studies. Due to the advantage that appropriate function approximators can help mitigate the sample complexity burden in modern reinforcement learning problems, existing endeavors usually enforce powerful function representation models (e.g. neural networks) to learn the optimal policies. However, a precise understanding of the statistical limits with function representations, remains elusive, even when such a representation is linear.
+	Towards this goal, we study the statistical limits of offline reinforcement learning with linear model representations. To derive the tight offline learning bound, we design the variance-aware pessimistic value iteration (VAPVI), which adopts the conditional variance information of the value function for time-inhomogeneous episodic linear Markov decision processes (MDPs). VAPVI uses the estimated variances of the value functions to reweight the Bellman residuals in the least-square pessimistic value iteration and provides improved offline learning bounds over the existing best-known results (whereas the Bellman residuals are equally weighted). More importantly, our learning bounds are expressed in terms of system quantities, which provide natural instance-dependent characterizations that previous results are short of. We hope our results draw a clearer picture of what offline learning should look like when linear representations are provided.},
+	topic={optimal policy learning},
+	url = {https://openreview.net/forum?id=KLaDXLAzzFT}
 }
 
 @article{hao2021bootstrapping,
