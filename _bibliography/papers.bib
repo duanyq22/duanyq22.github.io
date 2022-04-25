@@ -41,7 +41,6 @@
 	year={2021},
 	abstract={This paper considers batch reinforcement learning (RL) with general value function approximation. Our study investigates the minimal assumptions to reliably estimate/minimize Bellman error, and characterizes the generalization performance by (local) Rademacher complexities of general function classes, which makes initial steps in bridging the gap between statistical learning theory and batch RL. Concretely, we view the Bellman error as a surrogate loss for the optimality gap, and prove the followings: (1) In double sampling regime, the excess risk of Empirical Risk Minimizer (ERM) is bounded by the Rademacher complexity of the function class. (2) In the single sampling regime, sample-efficient risk minimization is not possible without further assumptions, regardless of algorithms. However, with completeness assumptions, the excess risk of FQI and a minimax style algorithm can be again bounded by the Rademacher complexity of the corresponding function classes. (3) Fast statistical rates can be achieved by using tools of local Rademacher complexity. Our analysis covers a wide range of function classes, including finite classes, linear spaces, kernel spaces, sparse linear features, etc.},
 	arXiv={2103.13883},
-	selected={true},
 	topic={optimal policy learning}
 }
 
@@ -52,7 +51,6 @@
 	year={2019},
 	abstract={State aggregation is a popular model reduction method rooted in optimal control. It reduces the complexity of engineering systems by mapping the system's states into a small number of meta-states. The choice of aggregation map often depends on the data analysts' knowledge and is largely ad hoc. In this paper, we propose a tractable algorithm that estimates the probabilistic aggregation map from the system's trajectory. We adopt a soft-aggregation model, where each meta-state has a signature raw state, called an anchor state. This model includes several common state aggregation models as special cases. Our proposed method is a simple two-step algorithm: The first step is spectral decomposition of empirical transition matrix, and the second step conducts a linear transformation of singular vectors to find their approximate convex hull. It outputs the aggregation distributions and disaggregation distributions for each meta-state in explicit forms, which are not obtainable by classical spectral methods. On the theoretical side, we prove sharp error bounds for estimating the aggregation and disaggregation distributions and for identifying anchor states. The analysis relies on a new entry-wise deviation bound for singular vectors of the empirical transition matrix of a Markov process, which is of independent interest and cannot be deduced from existing literature. The application of our method to Manhattan traffic data successfully generates a data-driven state aggregation map with nice interpretations.},
 	arXiv={1811.02619},
-	selected={true},
 	topic={state aggregation}
 }
 
@@ -63,7 +61,6 @@
 	year={2020},
 	abstract={This paper develops a low-nonnegative-rank approximation method to identify the state aggregation structure of a finite-state Markov chain under an assumption that the state space can be mapped into a handful of meta-states. The number of meta-states is characterized by the nonnegative rank of the Markov transition matrix. Motivated by the success of the nuclear norm relaxation in low rank minimization problems, we propose an atomic regularizer as a convex surrogate for the nonnegative rank and formulate a convex optimization problem. Because the atomic regularizer itself is not computationally tractable, we instead solve a sequence of problems involving a nonnegative factorization of the Markov transition matrices by using the proximal alternating linearized minimization method. Two methods for adjusting the rank of factorization are developed so that local minima are escaped. One is to append an additional column to the factorized matrices, which can be interpreted as an approximation of a negative subgradient step. The other is to reduce redundant dimensions by means of linear combinations. Overall, the proposed algorithm very likely converges to the global solution. The efficiency and statistical properties of our approach are illustrated on synthetic data. We also apply our state aggregation algorithm on a Manhattan transportation data set and make extensive comparisons with an existing method.},
 	arXiv={1810.06032},
-	selected={true},
 	topic={state aggregation}
 }
 
