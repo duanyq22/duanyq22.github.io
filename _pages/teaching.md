@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-I worked as a graduate teaching assistant for the following courses:
+I worked as a graduate teaching assistant at Princeton for the following courses:
 
 | Semster      |||| Course |
 | ----------- |||| ----------- |
