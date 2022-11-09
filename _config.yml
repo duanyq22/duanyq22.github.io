@@ -8,8 +8,7 @@ last_name: Duan
 email: yaqid@mit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 icon: # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -82,8 +81,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  t-shirts:
+    output: true
+    permalink: /t-shirts/:path/
 
-news_limit: 5
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_limit: 5 #leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -173,6 +176,8 @@ enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_t-shirt_categories:  true   # enables categorization of t-shirts into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 

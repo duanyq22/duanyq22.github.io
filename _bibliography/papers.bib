@@ -1,10 +1,21 @@
 ---
 ---
 
+@article{duan2022policy,
+	title={Policy evaluation from a single path: Multi-step methods, mixing and mis-specification},
+	author={Duan, Yaqi and Wainwright, Martin J.},
+	abstract = {We study non-parametric estimation of the value function of an infinite-horizon $\gamma$-discounted Markov reward process (MRP) using observations from a single trajectory. We provide non-asymptotic guarantees for a general family of kernel-based multi-step temporal difference (TD) estimates, including canonical $K$-step look-ahead TD for $K = 1, 2, ...$ and the TD$(\lambda)$ family for $\lambda \in [0,1)$ as special cases. Our bounds capture its dependence on Bellman fluctuations, mixing time of the Markov chain, any mis-specification in the model, as well as the choice of weight function defining the estimator itself, and reveal some delicate interactions between mixing time and model mis-specification.  For a given TD method applied to a well-specified model, its statistical error under trajectory data is similar to that of i.i.d. sample transition pairs, whereas under mis-specification, temporal dependence in data inflates the statistical error.  However, any such deterioration can be mitigated by increased look-ahead.  We complement our upper bounds by proving minimax lower bounds that establish optimality of TD-based methods with appropriately chosen look-ahead and weighting, and reveal some fundamental differences between value function estimation and ordinary non-parametric regression.},
+	journal={arXiv Preprint},
+	year = {2022},
+	arXiv={2211.03899},
+	selected={true},
+	topic={policy evaluation}
+}
+
 @article{duan2021optimal,
 	title={Optimal policy evaluation using kernel-based temporal difference methods},
 	author={Duan, Yaqi and Wang, Mengdi and Wainwright, Martin J.},
-	abstract = {We study methods based on reproducing kernel Hilbert spaces for estimating the value function of an infinite-horizon discounted Markov reward process (MRP). We study a regularized form of the kernel least-squares temporal difference (LSTD) estimate; in the population limit of infinite data, it corresponds to the fixed point of a projected Bellman operator defined by the associated reproducing kernel Hilbert space. The estimator itself is obtained by computing the projected fixed point induced by a regularized version of the empirical operator; due to the underlying kernel structure, this reduces to solving a linear system involving kernel matrices. We analyze the error of this estimate in the $L^2(\mu)$-norm, where $\mu$~denotes the stationary distribution of the underlying Markov chain. Our analysis imposes no assumptions on the transition operator of the Markov chain, but rather only conditions on the reward function and population-level kernel LSTD solutions. We use empirical process theory techniques to derive a non-asymptotic upper bound on the error with explicit dependence on the eigenvalues of the associated kernel operator, as well as the instance-dependent variance of the Bellman residual error. In addition, we prove minimax lower bounds over sub-classes of MRPs, which shows that our rate is optimal in terms of the sample size n and the effective horizon $H=1/(1−\gamma)$. Whereas existing worst-case theory predicts cubic scaling ($H^3$) in the effective horizon, our theory reveals that there is in fact a much wider range of scalings, depending on the kernel, the stationary distribution, and the variance of the Bellman residual error. Notably, it is only parametric and near-parametric problems that can ever achieve the worst-case cubic scaling.},
+	abstract = {We study non-parametric methods for estimating the value function of an infinite-horizon discounted Markov reward process (MRP). We establish non-asymptotic bounds on the statistical error of a kernel-based least-squares temporal difference (LSTD) estimate, which can be understood either as a non-parametric instrumental variables method, or as a projected approximation to the Bellman fixed point equation. Our analysis imposes no assumptions on the transition operator of the Markov chain, but rather only conditions on the reward function and population-level kernel LSTD solutions. Using empirical process theory and concentration inequalities, we establish a non-asymptotic upper bound on the error with explicit dependence on the effective horizon $H = (1-\gamma)^{-1}$ of the Markov reward process, the eigenvalues of the associated kernel operator, as well as the instance-dependent variance of the Bellman residual error. In addition, we prove minimax lower bounds over sub-classes of MRPs, which shows that our rate is optimal in terms of the sample size $n$ and the effective horizon $H$. Whereas existing worst-case theory predicts cubic scaling ($H^3$) in the effective horizon, our theory reveals that there is in fact a much wider range of scalings, depending on the kernel, the stationary distribution, and the variance of the Bellman residual error. Notably, it is only parametric and near-parametric problems that can ever achieve the worst-case cubic scaling.},
 	journal={arXiv Preprint},
 	year = {2021},
 	arXiv={2109.12002},
@@ -19,7 +30,7 @@
 	journal={arXiv Preprint},
 	year = {2022},
 	arXiv={2202.05250},
-	selected={true},
+	selected={false},
 	topic={multi-task learning}
 }
 
