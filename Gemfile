@@ -12,4 +12,5 @@ group :jekyll_plugins do
     gem 'webrick'
     gem "kramdown-parser-gfm"
     gem 'jekyll-seo-tag'
+    gem 'faraday-retry'
 end
