@@ -10,7 +10,7 @@ nav: false
 
 <div class="publications">
 
-<h1>Batch reinforcement learning</h1>
+<h1>Off-line reinforcement learning</h1>
 
 {% for t in page.topics_batchRL %}
   <h2 class="topic">{{t}}</h2>

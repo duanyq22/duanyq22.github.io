@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{duan2022adaptive,
+	title={Adaptive and robust multi-task learning},
+	author={Duan, Yaqi and Wang, Kaizheng},
+	abstract = {We study the multi-task learning problem that aims to simultaneously analyze multiple datasets collected from different sources and learn one model for each of them. We propose a family of adaptive methods to automatically utilize possible similarities among those tasks while carefully handling their differences. We derive optimal statistical guarantees for the methods and prove their robustness against outlier tasks. Numerical experiments on synthetic and real datasets demonstrate the efficacies of our new methods.},
+	journal={Annals of Statistics (to appear)},
+	year = {2023},
+	arXiv={2202.05250},
+	selected={false},
+	topic={multi-task learning}
+}
+
+
 @article{duan2022policy,
 	title={Policy evaluation from a single path: Multi-step methods, mixing and mis-specification},
 	author={Duan, Yaqi and Wainwright, Martin J.},
@@ -11,6 +23,7 @@
 	selected={true},
 	topic={policy evaluation}
 }
+
 
 @article{duan2021optimal,
 	title={Optimal policy evaluation using kernel-based temporal difference methods},
@@ -23,16 +36,7 @@
 	topic={policy evaluation}
 }
 
-@article{duan2022adaptive,
-	title={Adaptive and robust multi-task learning},
-	author={Duan, Yaqi and Wang, Kaizheng},
-	abstract = {We study the multi-task learning problem that aims to simultaneously analyze multiple datasets collected from different sources and learn one model for each of them. We propose a family of adaptive methods to automatically utilize possible similarities among those tasks while carefully handling their differences. We derive optimal statistical guarantees for the methods and prove their robustness against outlier tasks. Numerical experiments on synthetic and real datasets demonstrate the efficacies of our new methods.},
-	journal={arXiv Preprint},
-	year = {2022},
-	arXiv={2202.05250},
-	selected={false},
-	topic={multi-task learning}
-}
+
 
 @article{duan2020minimax,
 	title={Minimax-optimal off-policy evaluation with linear function approximation},
@@ -75,7 +79,7 @@
 	topic={state aggregation}
 }
 
-@article{yin2022bootstrapping,
+@article{yin2022near,
 	title={Near-optimal offline reinforcement learning with linear representation: leveraging variance information with pessimism},
 	author={Yin, Ming and Duan, Yaqi and Wang, Mengdi and Wang, Yu-Xiang},
 	journal={International Conference on Learning Representations (ICLR)},
@@ -84,6 +88,17 @@
 	Towards this goal, we study the statistical limits of offline reinforcement learning with linear model representations. To derive the tight offline learning bound, we design the variance-aware pessimistic value iteration (VAPVI), which adopts the conditional variance information of the value function for time-inhomogeneous episodic linear Markov decision processes (MDPs). VAPVI uses the estimated variances of the value functions to reweight the Bellman residuals in the least-square pessimistic value iteration and provides improved offline learning bounds over the existing best-known results (whereas the Bellman residuals are equally weighted). More importantly, our learning bounds are expressed in terms of system quantities, which provide natural instance-dependent characterizations that previous results are short of. We hope our results draw a clearer picture of what offline learning should look like when linear representations are provided.},
 	topic={optimal policy learning},
 	html = {https://openreview.net/forum?id=KLaDXLAzzFT}
+}
+
+@article{duan2023finite,
+	title={A finite-sample analysis of multi-step temporal difference estimates},
+	author={Duan, Yaqi and Wainwright, Martin J.},
+	abstract = {We consider the problem of estimating the value function of an infinite-horizon $\gamma$-discounted Markov reward process (MRP). We establish non-asymptotic guarantees for a general family of multi-step temporal difference (TD) estimates, including canonical $K$-step look-ahead TD for $K=1,2,\ldots$ and the $TD(\lambda)$  family for $\lambda \in [0,1)$ as special cases. Our bounds capture the dependence of these estimates on both the variance as defined by Bellman fluctuations, and the bias arising from possible model mis-specification. Our results reveal that the variance component shows limited sensitivity to the choice of look-ahead defining the estimator itself, while increasing the look-ahead can reduce the bias term. This highlights the benefit of using a larger look-ahead: it reduces bias but need not increase the variance.},
+	journal={Learning for Dynamics and Control Conference (L4DC)},
+	year = {2023},
+	html = {https://proceedings.mlr.press/v211/duan23a/duan23a.pdf},
+	selected={false},
+	topic={policy evaluation}
 }
 
 @article{hao2021bootstrapping,
