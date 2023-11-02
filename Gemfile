@@ -5,7 +5,7 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate-v2'
-    gem 'jekyll-scholar'
+    gem 'jekyll-scholar', group: :jekyll_plugins
     gem 'jekyll-sitemap'
     gem 'jemoji'
     gem 'unicode_utils'
