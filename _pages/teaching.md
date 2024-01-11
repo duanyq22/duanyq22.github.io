@@ -6,7 +6,23 @@ description:
 nav: false
 ---
 
-I worked as a graduate teaching assistant at Princeton for the following courses:
+
+<h3>New York University</h3>
+
+| Semster      |||| Course |
+| ----------- |||| ----------- |
+| Spring 2024      |||| [STAT-UB 103](https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/course-syllabi/syllabi?tm=sp24){:target="\_blank"} - Statistics for Business Control, Regression & Forecasting Models       |
+| Spring 2024   |||| [STAT-UB 003](https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/course-syllabi/syllabi?tm=sp24){:target="\_blank"} - Regression and Forecasting Models        |
+|    ||||         |
+
+
+
+<h1>   </h1>
+
+
+<h3>Princeton University</h3>
+
+I worked as a graduate teaching assistant for the following courses:
 
 | Semster      |||| Course |
 | ----------- |||| ----------- |
