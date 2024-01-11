@@ -3,14 +3,14 @@ layout: page
 permalink: /publications_topic/
 title: Publications
 topics_MTL: [multi-task learning]
-topics_batchRL: [policy evaluation, optimal policy learning]
+topics_batchRL: [continuous state-action space, policy evaluation, optimal policy learning]
 topics_aggreg: [state aggregation, state embedding]
 nav: false
 ---
 
 <div class="publications">
 
-<h1>Off-line reinforcement learning</h1>
+<h1>Reinforcement learning</h1>
 
 {% for t in page.topics_batchRL %}
   <h2 class="topic">{{t}}</h2>
