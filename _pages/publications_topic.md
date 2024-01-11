@@ -3,7 +3,7 @@ layout: page
 permalink: /publications_topic/
 title: Publications
 topics_MTL: [multi-task learning]
-topics_batchRL: [continuous state-action space, policy evaluation, optimal policy learning]
+topics_batchRL: [continuous state-action space, policy evaluation, off-line reinforcement learning]
 topics_aggreg: [state aggregation, state embedding]
 nav: false
 ---
