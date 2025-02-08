@@ -3,6 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: Yaqi Duan
+
+sass:
+  style: compressed
+
 first_name: Yaqi
 last_name: Duan
 email: yaqi.duan@stern.nyu.edu
@@ -84,8 +88,8 @@ collections:
     output: true
     permalink: /t-shirts/:path/
 
-news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 #leave blank to include all the news in the `_news` folder
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_limit: 1000 #leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -138,7 +142,7 @@ github: [metadata]
 scholar:
 
   last_name: Duan
-  first_name: [Yaqi, Y.]
+  first_name: [Yaqi, Y., Yaqi*, Y.*]
 
   style: apa
   locale: en
