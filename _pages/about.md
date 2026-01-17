@@ -16,9 +16,11 @@ social: false  # includes social icons at the bottom of the page
 
 Welcome to my homepage!
 I am an Assistant Professor in the [Department of Technology, Operations, and Statistics](https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept) at Stern School of Business at New York University. 
-My primary research interests lie in machine learning, particularly statistical aspects of reinforcement learning.
+My primary research interests sit at the intersection of statistical machine learning and operations, centered on data-driven sequential decision making. Recently, I have been studying reinforcement learning for post-training large language models, exploring how data collection, exploration, and optimization dynamics shape learning.
 
 I graduated with a Ph.D. degree from the [Department of Operations Research and Financial Engineering](https://orfe.princeton.edu/){:target="\_blank"} at Princeton University in 2022. From 2022 to 2023, I was a postdoctoral researcher at the [Laboratory for Information & Decision Systems](https://lids.mit.edu/){:target="\_blank"} at Massachusetts Institute of Technology, working with Professor [Martin J. Wainwright](https://computing.mit.edu/martin-wainwright/){:target="\_blank"}. Prior to my doctoral studies, I received a B.S. in Mathematics from Peking University.
+
+If you are interested in working together, please feel free to reach out!
 
 
 <p>📧 <em> yaqi.duan </em> [At] stern [Dot] nyu [Dot] edu </p>
