@@ -1,13 +1,51 @@
 ---
 ---
 
+@article{duan2025ask,
+	title={Ask, clarify, optimize: Human-LLM agent collaboration for smarter inventory control},
+	author={Duan, Yaqi and Hu, Yichun and Jiang, Jiashuo (α-β)},
+	abstract = {Inventory management remains a challenge for many small and medium-sized businesses that lack the expertise to deploy advanced optimization methods. This paper investigates whether Large Language Models (LLMs) can help bridge this gap. We show that employing LLMs as direct, end-to-end solvers incurs a significant "hallucination tax": a performance gap arising from the model's inability to perform grounded stochastic reasoning. To address this, we propose a hybrid agentic framework that strictly decouples semantic reasoning from mathematical calculation. In this architecture, the LLM functions as an intelligent interface, eliciting parameters from natural language and interpreting results while automatically calling rigorous algorithms to build the optimization engine. To evaluate this interactive system against the ambiguity and inconsistency of real-world managerial dialogue, we introduce the Human Imitator, a fine-tuned "digital twin" of a boundedly rational manager that enables scalable, reproducible stress-testing. Our empirical analysis reveals that the hybrid agentic framework reduces total inventory costs by 32.1% relative to an interactive baseline using GPT-4o as an end-to-end solver. Moreover, we find that providing perfect ground-truth information alone is insufficient to improve GPT-4o's performance, confirming that the bottleneck is fundamentally computational rather than informational. Our results position LLMs not as replacements for operations research, but as natural-language interfaces that make rigorous, solver-based policies accessible to non-experts.},
+	journal={arXiv Preprint},
+	arXiv={2601.00121},
+	year={2025}
+}
+
+@article{feng2025don,
+	title={Don't waste mistakes: Leveraging negative RL-groups via confidence reweighting},
+	author={Feng, Yunzhen and Jain, Parag and Hartshorn, Anthony and Duan, Yaqi* and Kempe, Julia*},
+	abstract = {Reinforcement learning with verifiable rewards (RLVR) has become a standard recipe for improving large language models (LLMs) on reasoning tasks, with Group Relative Policy Optimization (GRPO) widely used in practice. Yet GRPO wastes substantial compute on negative groups: groups in which no sampled response is correct yield zero advantage and thus no gradient. We ask whether negative groups can be leveraged without extra supervision. Starting from a maximum-likelihood (MLE) objective in reward modeling, we show that the MLE gradient is equivalent to a policy gradient for a modified value function. This value function adds a confidence-weighted penalty on incorrect responses, imposing larger penalties on more confident mistakes. We refer to this as Likelihood Estimation with Negative Samples (LENS). LENS modifies GRPO to assign non-zero, confidence-dependent rewards to incorrect generations, making negative groups informative and converting previously wasted samples into useful gradient updates. On the MATH benchmark with Llama-3.1-8B and Qwen-2.5-3B, the proposed variant consistently outperforms GRPO baseline, with significant gains on harder items. These results demonstrate a principled and practical way to "rescue" negative groups, improving efficiency and performance in RLVR.},
+	journal={arXiv Preprint},
+	arXiv={2510.08696},
+	year={2025}
+}
+
+@article{suk2025optimization,
+	title={On the optimization dynamics of RLVR: Gradient gap and step size thresholds},
+	author={Suk, Joe and Duan, Yaqi},
+	abstract = {Reinforcement Learning with Verifiable Rewards (RLVR), which uses simple binary feedback to post-train large language models, has shown significant empirical success. However, a principled understanding of why it works has been lacking. This paper builds a theoretical foundation for RLVR by analyzing its training process at both the full-response (trajectory) and token levels. Central to our analysis is a quantity called the Gradient Gap, which formalizes the direction of improvement from low-reward to high-reward regions of the response space. We prove that convergence critically depends on aligning the update direction with this Gradient Gap. Moreover, we derive a sharp step-size threshold based on the magnitude of the Gradient Gap: below it, learning converges, whereas above it, performance collapses. Our theory further predicts how the critical step size must scale with response length and the success rate, thereby explaining why practical heuristics such as length normalization improve stability and showing that, with a fixed learning rate, the success rate can stagnate strictly below 100%. We validate these predictions through controlled bandit simulations.},
+	journal={arXiv Preprint},
+	arXiv={2510.08539},
+	selected={true},
+	year={2025}
+}
+
+
 @article{feng2025pilaf,
 	title={PILAF: Optimal human preference sampling for reward modeling
 	},
-	author={Feng, Yunzhen and Kwiatkowski, Ariel† and Zheng, Kunhao† and Duan, Yaqi* and Kempe, Julia*},
+	author={Feng, Yunzhen and Kwiatkowski, Ariel† and Zheng, Kunhao† and Kempe, Julia* and Duan, Yaqi*},
 	abstract = {As large language models increasingly drive real-world applications, aligning them with human values becomes paramount. Reinforcement Learning from Human Feedback (RLHF) has emerged as a key technique, translating preference data into reward models when oracle human values remain inaccessible. In practice, RLHF mostly relies on approximate reward models, which may not consistently guide the policy toward maximizing the underlying human values. We propose Policy-Interpolated Learning for Aligned Feedback (PILAF), a novel response sampling strategy for preference labeling that explicitly aligns preference learning with maximizing the underlying oracle reward. PILAF is theoretically grounded, demonstrating optimality from both an optimization and a statistical perspective. The method is straightforward to implement and demonstrates strong performance in iterative and online RLHF settings where feedback curation is critical.},
 	journal={arXiv Preprint},
 	arXiv={2502.04270},
+	selected={true},
+	year={2025}
+}
+
+@article{duan2025stability,
+	title={Stability through curvature: A framework for fast convergence in reinforcement learning},
+	author={Duan, Yaqi and Wainwright, Martin J.},
+	abstract = {We introduce a novel framework for analyzing reinforcement learning (RL) in continuous state-action spaces, and use it to prove fast rates of convergence in both off-line and on-line settings. Our analysis highlights two key stability properties, relating to how changes in value functions and/or policies affect system dynamics via the Bellman operator and induced occupation measure. We show that these stability properties can be ensured by sufficient curvature in the function class used to represent state-action value functions. Curvature is a static property, making it easier to verify than the dynamic stability conditions that it implies. Using linear function represetation, we illustrate the connection between curvature and stability with concrete formulations. Overall, the key insight is that function classes with sufficient curvature guarantee dynamic system stability, leading to fast convergence rates in RL.},
+	journal={Minor revision (first round), Operations Research},
 	selected={true},
 	year={2025}
 }
@@ -28,10 +66,9 @@
 	author={Duan, Yaqi and Wainwright, Martin J.},
 	journal={Advances in Neural Information Processing Systems (NeurIPS)},
 	year={2024},
-	abstract = {We introduce a novel framework for analyzing reinforcement learning (RL) in continuous state-action spaces, and use it to prove fast rates of convergence in both off-line and on-line settings. Our analysis highlights two key stability properties, relating to how changes in value functions and/or policies affect the Bellman operator and occupation measures. We argue that these properties are satisfied in many continuous state-action Markov decision processes, and demonstrate how they arise naturally when using linear function approximation methods. Our analysis offers fresh perspectives on the roles of pessimism and optimism in off-line and on-line RL, and highlights the connection between off-line RL and transfer learning.},
+	abstract = {We introduce a novel framework for analyzing reinforcement learning (RL) in continuous state-action spaces, and use it to prove fast rates of convergence in both off-line and on-line settings. Our analysis highlights two key stability properties, relating to how changes in value functions and/or policies affect the Bellman operator and occupation measures. We argue that these properties are satisfied in many continuous state-action Markov decision processes. Our analysis also offers fresh perspectives on the roles of pessimism and optimism in off-line and on-line RL.},
 	year = {2024},
-	arXiv={2401.05233},
-	selected={true},
+	html = {https://openreview.net/forum?id=CbHz30KeA4},
 	topic={continuous state-action space}
 }
 
@@ -75,7 +112,6 @@
 	journal={arXiv Preprint},
 	year = {2022},
 	arXiv={2211.03899},
-	selected={true},
 	topic={policy evaluation}
 }
 
@@ -119,8 +155,7 @@
 	year={2020},
 	abstract={This paper develops a low-nonnegative-rank approximation method to identify the state aggregation structure of a finite-state Markov chain under an assumption that the state space can be mapped into a handful of meta-states. The number of meta-states is characterized by the nonnegative rank of the Markov transition matrix. Motivated by the success of the nuclear norm relaxation in low rank minimization problems, we propose an atomic regularizer as a convex surrogate for the nonnegative rank and formulate a convex optimization problem. Because the atomic regularizer itself is not computationally tractable, we instead solve a sequence of problems involving a nonnegative factorization of the Markov transition matrices by using the proximal alternating linearized minimization method. Two methods for adjusting the rank of factorization are developed so that local minima are escaped. One is to append an additional column to the factorized matrices, which can be interpreted as an approximation of a negative subgradient step. The other is to reduce redundant dimensions by means of linear combinations. Overall, the proposed algorithm very likely converges to the global solution. The efficiency and statistical properties of our approach are illustrated on synthetic data. We also apply our state aggregation algorithm on a Manhattan transportation data set and make extensive comparisons with an existing method.},
 	arXiv={1810.06032},
-	topic={state aggregation},
-	selected={true}
+	topic={state aggregation}
 }
 
 @article{yin2022near,

@@ -11,6 +11,7 @@ nav: false
 
 | Semster      |||| Course |
 | ----------- |||| ----------- |
+| Fall 2025      |||| [STAT-UB 103.001, 002 & 008](https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/course-syllabi/syllabi?tm=sp24){:target="\_blank"} - Statistics for Business Control, Regression & Forecasting Models       |
 | Spring 2025      |||| [STAT-UB 103.003 & 006](https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/course-syllabi/syllabi?tm=sp24){:target="\_blank"} - Statistics for Business Control, Regression & Forecasting Models       |
 | Spring 2024      |||| [STAT-UB 103.002](https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/course-syllabi/syllabi?tm=sp24){:target="\_blank"} - Statistics for Business Control, Regression & Forecasting Models       |
 | Spring 2024   |||| [STAT-UB 003.001](https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/course-syllabi/syllabi?tm=sp24){:target="\_blank"} - Regression and Forecasting Models        |
