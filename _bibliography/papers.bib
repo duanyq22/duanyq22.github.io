@@ -25,7 +25,6 @@
 	abstract = {Reinforcement Learning with Verifiable Rewards (RLVR), which uses simple binary feedback to post-train large language models, has shown significant empirical success. However, a principled understanding of why it works has been lacking. This paper builds a theoretical foundation for RLVR by analyzing its training process at both the full-response (trajectory) and token levels. Central to our analysis is a quantity called the Gradient Gap, which formalizes the direction of improvement from low-reward to high-reward regions of the response space. We prove that convergence critically depends on aligning the update direction with this Gradient Gap. Moreover, we derive a sharp step-size threshold based on the magnitude of the Gradient Gap: below it, learning converges, whereas above it, performance collapses. Our theory further predicts how the critical step size must scale with response length and the success rate, thereby explaining why practical heuristics such as length normalization improve stability and showing that, with a fixed learning rate, the success rate can stagnate strictly below 100%. We validate these predictions through controlled bandit simulations.},
 	journal={arXiv Preprint},
 	arXiv={2510.08539},
-	selected={true},
 	year={2025}
 }
 
